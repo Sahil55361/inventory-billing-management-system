@@ -2,6 +2,10 @@
 
 A full-stack web application that helps small retailers manage inventory, generate bills, and track sales through a live analytics dashboard.
 
+## Live Demo
+- Frontend (Live App): https://inventory-billing-management-system-lyart.vercel.app/
+- Backend (API): https://inventory-billing-management-system-i62l.onrender.com/api/health
+
 ## Problem Statement
 Small retailers manage inventory manually, leading to stock mismatches, poor planning, and revenue loss.
 
@@ -13,6 +17,7 @@ Develop a web-based system for inventory tracking, billing, and sales analytics.
 - Backend: Node.js, Express.js
 - Database: PostgreSQL (Supabase)
 - Charts: Chart.js
+- Deployment: Vercel (frontend), Render (backend)
 - Tools: GitHub, VS Code
 
 ## Features
@@ -80,7 +85,7 @@ bill_items table:
 - quantity (integer)
 - price (numeric)
 
-## Setup Instructions
+## Setup Instructions (Run Locally)
 
 ### Prerequisites
 - Node.js installed
